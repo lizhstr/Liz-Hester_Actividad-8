@@ -3,6 +3,28 @@ img{
     width: 100px;
 }
 
+
+#img1{
+    transform: rotate(45deg);
+}
+
+#img2{
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+#img2:hover{
+    transform: scale(.5,.5);
+}
+
+#img3{
+    cursor: pointer;
+    transition: all ease 2s;
+}
+
+#img3:hover{
+    transform: rotate(180deg);
+}
 /* img1 add roate 45deg */
 /* img2 transitio effect */
 /* img3 transition effect and on hover rotate 180 degrees during 2 seconds */
